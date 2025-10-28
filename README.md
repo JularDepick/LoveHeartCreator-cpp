@@ -1,4 +1,6 @@
 # LoveHeartCreator-cpp
+- 如果您是开发者，您可以选择/cpp目录下的源代码进行学习或编译使用。
+- 如果您不是开发者，您可以选择/exe目录下已编译好的可执行文件使用。
 
 # 源代码.cpp
     - 版权所有：https://github.com/JularDepick
