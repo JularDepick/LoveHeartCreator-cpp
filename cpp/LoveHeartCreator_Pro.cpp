@@ -17,7 +17,7 @@ bool in_area(double x,double y) {
 	const double p3a=(yp2+xp2-0.2);
 	const double p3=p3a*p3a*p3a;
 	const double ans=p3+yp2*xp3;
-	return (ans<=0);
+	return (ans<=0); 
 }
 
 void print(string str,bool cycle=0) {
@@ -88,14 +88,19 @@ int main() {
 	//¹¹Ôì·Ö¸î 
 	vector<string> vec={};
 	if(full) {
-		for(int i=0;i<len;i+=2) {
+		for(int i=0;i<len;i++) {
 			string str="";
 			str.push_back(cont[i]);
-			str.push_back(cont[i+1]);
+			if(cont[i]<0 || cont[i]>=128) {
+				str.push_back(cont[i+1]);
+				i++;
+			} else {
+				str.push_back(' ');
+			}
 			vec.push_back(str);
 		}
 	} else {
-		for(int i=0;i<len;i++) {
+		for(int i=0;i<len;i+=1) {
 			string str="";
 			str.push_back(cont[i]);
 			vec.push_back(str);
