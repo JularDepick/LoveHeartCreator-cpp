@@ -1,4 +1,4 @@
-# LoveHeartCreator-cpp
+# LoveHeartCreator
 - 如果您是开发者，您可以选择/cpp目录下的源代码进行学习或编译使用。
 - 如果您不是开发者，您可以选择/exe目录下已编译好的可执行文件使用。
 - 版权所有：https://github.com/JularDepick
@@ -57,4 +57,6 @@
     - 至于前景色的变化策略是随机选择还是遵循固定顺序循环，想必很简单，实现也不算难，这里不再赘述，如有兴趣详见源代码。
 
 # 额外的
-- 如果您不介意，请为我在抖音上的视频点赞，因为本仓库就是为该视频创建的：[抖音视频链接](https://v.douyin.com/iw5d6BfC53c)
+- 如果您不介意，请为我在抖音上的视频点赞，因为本仓库就是为该视频创建的：
+[抖音视频链接1](https://v.douyin.com/iw5d6BfC53c)
+[抖音视频链接2](https://v.douyin.com/u5ysok6dadA)
