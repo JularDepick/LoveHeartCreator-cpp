@@ -1,5 +1,5 @@
 # LoveHeartCreator
-- 如果您是开发者，您可以选择/cpp目录下的源代码进行学习或编译使用。
+- 如果您是开发者，您可以选择/src目录下的源代码进行学习或编译使用。
 - 如果您不是开发者，您可以选择/exe目录下已编译好的可执行文件使用。
 - 版权所有：https://github.com/JularDepick
 - 代码功能解释：
@@ -14,11 +14,18 @@
             - 第一个输入为一个 $10-70$ 的正整数，决定爱心的大小和精细程度
             - 第二个输入为一个字符串，可以包含任意可见的中英文字符，将作为自定义填充文本填充到爱心内部
             - 第三个输入为可选项，是一个字符串，将在输出首行固定显示
+    - $LoveHeartCreator_Basic.py$
+        - 效果与 $LoveHeartCreator_Basic.cpp$ 基本一致，但存在控制台显示差异
+        - 填充字符为M
+    - $LoveHeartCreator_ProMax.py$
+        - 使用 $matplotlib.pyplot$ 库绘画实心爱心图形
+    
 
 # 参考编译环境
 - 操作系统：$Windows11_64bit$
 - 编译器：$TDM-GCC-10.3.0-64bit-Release$
 - 编译参数：$-O2 -std=c++17$
+- Python版本：3.13.7
 
 # 原理分析
 - 数学基础：笛卡尔心形曲线
